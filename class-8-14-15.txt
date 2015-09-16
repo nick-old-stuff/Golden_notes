@@ -1,5 +1,7 @@
 
-
+/localusers/golden/VirtualMachines
+/localusers/golden/VirtuaMachines/profiles
+UNO#IA#Rox
 
 
 mac_psxview
