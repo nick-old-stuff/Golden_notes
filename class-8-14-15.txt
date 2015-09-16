@@ -1,7 +1,7 @@
 
 /localusers/golden/VirtualMachines
 /localusers/golden/VirtuaMachines/profiles
-UNO#IA#Rox
+55 4e 4f 23 49 41 23 52 6f 78
 
 
 mac_psxview
