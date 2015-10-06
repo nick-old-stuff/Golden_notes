@@ -4,7 +4,10 @@
 \margl1440\margr1440\vieww28600\viewh15660\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
 
-\f0\fs24 \cf0 Function pointers\
+\f0\fs24 \cf0 houdini exploit\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+Function pointers\
 - generic file_operations stuck\
 - all defined specific file_operations functions NOT in the specific file_operations ARE NULL\
 - these exist in the kernel\
@@ -30,4 +33,18 @@ mmap\
 \
 \
 \
-}
+houdini Uses very specific memory allocation\
+-creates a bunch of sequential objects to ZERO out memory \
+-then has a bunch of free memory available\
+-set selection\
+\
+\
+\
+them makes an mmap collection and point it somewhere and run network ops which can change anything in memory\
+\
+\
+\
+volatility\
+\'97\'97\'97\'97\'97\
+dt(\'93file_operations\'94, fops)\
+look for ioctl}
