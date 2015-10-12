@@ -124,3 +124,14 @@ Volatility’smemmap plugin shows the virtual and physical addresses “visible�
 memdump
 -----
 The memdump plugin extracts all pages to a single file on disk
+
+
+strings
+---------
+strings -n 2 <filename> | grep "yourstring" | wc 
+
+wc outputs line/word/and some other thing
+
+use -l or -w for just one or the other
+
+
