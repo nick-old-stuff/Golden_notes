@@ -128,10 +128,26 @@ The memdump plugin extracts all pages to a single file on disk
 
 strings
 ---------
-strings -n 2 <filename> | grep "yourstring" | wc 
+strings -n 2 <filename> | grep "yourstring"
 
+
+
+awk
+----
+
+pipe to awk '$4 == 0'
+to do column manipulations
+
+also awk ‘$4 == “0” {print $0}’
+the print statement prints columns the $0 is print all columns
+
+
+wc
+----
 wc outputs line/word/and some other thing
 
-use -l or -w for just one or the other
+use -l or -w for just word or lines
+
+
 
 
